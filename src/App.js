@@ -1,12 +1,6 @@
 import React from 'react';
 import './css/App.css';
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link,
-  NavLink
-} from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link, NavLink} from "react-router-dom";
 import Navbar from './navbar';
 import tim from './tim/tim-profile';
 import tong from './tong/tong-profile';
@@ -15,11 +9,10 @@ import home from './page/home.js';
 
 function App() {
   return (
-    // <h1>Testing</h1>
     <BrowserRouter>
 
     <div class="my-app">
-        <Navbar/>       
+      <Navbar/>       
  
 
       <Switch>

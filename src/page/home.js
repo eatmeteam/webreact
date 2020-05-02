@@ -1,4 +1,5 @@
 import React from 'react'
+// import {Link} from 'react-router-dom'
 
 export default function home(){
     return(
@@ -13,25 +14,25 @@ export default function home(){
             <div class="container marketing">
                 <div class="row text-center">
                     <div class="col-lg-4">
-                    <img class="rounded-circle" style={{ width: '140px' }}  src="./pp/img/pp2.jpg" ></img>
+                    <img class="rounded-circle" style={{ width: '140px' }}  src="./pp/img/pp2.jpg" alt='pp-img'></img>
                     <h2 style={{ marginTop: '20px' }}>PP</h2>
                     <p> หล่อสุดในกลุ่ม และ ในมหาลัย</p>
                     <p> ID: 6210402470</p>
-                    <p><a class="btn btn-secondary" href="./pp" role="button">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href='/pp' role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-lg-4">
-                    <img style={{ width: '140px' }} class="rounded-circle" src="./../../../patisxx/img/tong.jpg" ></img>
+                    <img style={{ width: '140px' }} class="rounded-circle" src="./patisxx/img/tong.jpg" alt='tong-img' ></img>
                     <h2 style={{ marginTop: '20px' }}>Tong</h2>
                     <p>กินเก่ง นอนเก่ง บ่นเก่ง</p>
                     <p> ID: 6210400710</p>
-                    <p><a class="btn btn-secondary" href="./tong" role="button">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href='/tong' role="button">View details &raquo;</a></p>
                     </div>
                     <div class="col-lg-4">
-                    <img style={{ width: '140px' }} class="rounded-circle" src="https://instagram.fbkk9-2.fna.fbcdn.net/v/t51.2885-19/s320x320/71510449_561596781262882_7125028557092290560_n.jpg?_nc_ht=instagram.fbkk9-2.fna.fbcdn.net&_nc_ohc=1UyizBDIYHoAX_ZiGpv&oh=7a32822efebce2b722c1033543105616&oe=5ED3CAF3" ></img>
+                    <img style={{ width: '140px' }} class="rounded-circle" src="" alt='tim-img'></img>
                     <h2 style={{ marginTop: '20px' }}>Tim</h2>
                     <p>ทิมเองคัฟ</p>
                     <p> ID: 6210402364</p>
-                    <p><a class="btn btn-secondary" href="./tim" role="button">View details &raquo;</a></p>
+                    <p><a class="btn btn-secondary" href='/tim' role="button">View details &raquo;</a></p>
                     </div>
                 </div>
             </div>
