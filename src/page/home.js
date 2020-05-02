@@ -1,6 +1,6 @@
 import React from 'react'
 import './../css/index.css'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 export default function home(){
     return(
@@ -19,21 +19,21 @@ export default function home(){
                     <h2 style={{ marginTop: '20px' }}>PP</h2>
                     <p> หล่อสุดในกลุ่ม และ ในมหาลัย</p>
                     <p> ID: 6210402470</p>
-                    <p><a class="btn btn-secondary" href='/pp' role="button">View details &raquo;</a></p>
+                    <p><Link class="btn btn-secondary" to='/pp' role="button">View details &raquo;</Link></p>
                     </div>
                     <div class="col-lg-4">
                     <img style={{ width: '140px' }} class="rounded-circle" src="./patisxx/img/tong.jpg" alt='tong-img' ></img>
                     <h2 style={{ marginTop: '20px' }}>Tong</h2>
                     <p>กินเก่ง นอนเก่ง บ่นเก่ง</p>
                     <p> ID: 6210400710</p>
-                    <p><a class="btn btn-secondary" href='/tong' role="button">View details &raquo;</a></p>
+                    <p><Link class="btn btn-secondary" to='/tong' role="button">View details &raquo;</Link></p>
                     </div>
                     <div class="col-lg-4">
                     <img style={{ width: '140px' }} class="rounded-circle" src="" alt='tim-img'></img>
                     <h2 style={{ marginTop: '20px' }}>Tim</h2>
                     <p>ทิมเองคัฟ</p>
                     <p> ID: 6210402364</p>
-                    <p><a class="btn btn-secondary" href='/tim' role="button">View details &raquo;</a></p>
+                    <p><Link class="btn btn-secondary" to='/tim' role="button">View details &raquo;</Link></p>
                     </div>
                 </div>
             </div>
