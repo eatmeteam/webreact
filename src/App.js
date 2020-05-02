@@ -15,23 +15,23 @@ import home from './page/home.js';
 
 function App() {
   return (
-    <h1>Testing</h1>
-    // <BrowserRouter }>
+    // <h1>Testing</h1>
+    <BrowserRouter>
 
-    // <div class="my-app">
-    //     <Navbar/>       
+    <div class="my-app">
+        <Navbar/>       
  
 
-    //   <Switch>
-    //     <Route exact path='/' component={home}/>
-    //     <Route path='/tim' component={tim}/>
-    //     <Route path='/tong' component={tong}/>
-    //     <Route paht='/pp' component={pp}/>
-    //   </Switch>
+      <Switch>
+        <Route exact path='/' component={home}/>
+        <Route path='/tim' component={tim}/>
+        <Route path='/tong' component={tong}/>
+        <Route paht='/pp' component={pp}/>
+      </Switch>
       
-    //   </div>
+      </div>
         
-    // </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
