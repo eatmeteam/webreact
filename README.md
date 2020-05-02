@@ -1,4 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/1e05fff3-e0ba-4355-93ee-c92a4fd7394a/deploy-status)](https://eatmeteam.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e05fff3-e0ba-4355-93ee-c92a4fd7394a/deploy-status)](https://app.netlify.com/sites/eatmeteam/deploys)
+
+[https://eatmeteam.netlify.app/](https://eatmeteam.netlify.app/)
 
 # How to start after clone project
 
