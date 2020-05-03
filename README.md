@@ -14,7 +14,6 @@
 
 ## สิ่งที่ควรทำหลีกเลี่ยง Warning
 
- - เปลื่ยนจาก `<a></a>` เป็น` <Link></Link>`
  - `style="margin-top: 80px; padding-top: 10%"` เป็น
    `style={{ marginTop: '80px' , paddingTop: '10%' }}`
    

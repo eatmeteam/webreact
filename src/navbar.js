@@ -58,8 +58,8 @@ export default function navbar() {
               </ul>
               {/* <!-- Github --> */}
               <ul class="navbar-nav mr-right" >
-                <li class="topbar-right active" style={{marginTop: '-10%', marginBottom: '-10%'}}>
-                  <Link class="nav-link" href="https://github.com/eatmeteam/eatmeteam.github.io" target="_blank"><img class="rounded-circle" style={{width: "100px"}} src="https://drl.chaosforge.org/images/GitHub_Logo.png" alt="Github-logo"/></Link>
+                <li class="topbar-right active" style={{marginTop: '-5%', marginBottom: '-5%'}}>
+                  <a class="nav-link" href="https://github.com/eatmeteam/eatmeteam.github.io" target="_blank"><img class="rounded-circle" style={{width: "100px"}} src="https://drl.chaosforge.org/images/GitHub_Logo.png" alt="Github-logo"/></a>
                 </li>
               </ul>
               {/* <!-- End Github --> */}
