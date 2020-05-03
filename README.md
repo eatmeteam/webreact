@@ -1,3 +1,4 @@
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e05fff3-e0ba-4355-93ee-c92a4fd7394a/deploy-status)](https://app.netlify.com/sites/eatmeteam/deploys)
 
 [https://eatmeteam.netlify.app/](https://eatmeteam.netlify.app/)
@@ -10,6 +11,20 @@
  2. Start working :)
  `npm start`
     
+
+## สิ่งที่ควรทำหลีกเลี่ยง Warning
+
+ - เปลื่ยนจาก `<a></a>` เป็น` <Link></Link>`
+ - `style="margin-top: 80px; padding-top: 10%"` เป็น
+   `style={{ marginTop: '80px' , paddingTop: '10%' }}`
+   
+ - `class` เป็น `className`
+- วิธี import รูปจาก local [https://www.edwardbeazer.com/importing-images-with-react/](https://www.edwardbeazer.com/importing-images-with-react/)
+
+#
+
+ - [ศึกษาเกี่ยวกับ Routing](https://devahoy.com/blog/2018/02/basic-web-with-react-router-v4/#step-3)
+#
 
 <details><summary>Click here to expand</summary>
 <p>
