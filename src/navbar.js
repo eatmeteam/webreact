@@ -1,10 +1,9 @@
-import React from 'react'
 import {Link} from 'react-router-dom'
+import React, { Component } from 'react'
 
-
-export default function navbar() {
+export default class navbar extends Component {
+  render() {
     return (
-
         // <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-dark">
           {/* <!-- Home Button --> */}
@@ -59,7 +58,7 @@ export default function navbar() {
               {/* <!-- Github --> */}
               <ul class="navbar-nav mr-right" >
                 <li class="topbar-right active" style={{marginTop: '-5%', marginBottom: '-5%'}}>
-                  <a class="nav-link" href="https://github.com/eatmeteam/eatmeteam.github.io" target="_blank"><img class="rounded-circle" style={{width: "100px"}} src="https://drl.chaosforge.org/images/GitHub_Logo.png" alt="Github-logo"/></a>
+                  <a class="nav-link" href="https://github.com/eatmeteam/eatmeteam.github.io" rel="noopener noreferrer" target="_blank"><img class="rounded-circle" style={{width: "100px"}} src="https://drl.chaosforge.org/images/GitHub_Logo.png" alt="Github-logo"/></a>
                 </li>
               </ul>
               {/* <!-- End Github --> */}
@@ -68,4 +67,5 @@ export default function navbar() {
         </nav>
         // <!-- End Navigation Bar -->
     )
+  }
 }

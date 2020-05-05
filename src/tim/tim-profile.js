@@ -4,7 +4,7 @@ function IntroName () {
     return (
             <div className="row" style={{ marginTop: '-40px'}}  >
                 <div className="col-lg-2" >
-                    <img style={{ borderRadius: '50%', width: '150px', height: '150px' }} src="https://instagram.fbkk9-2.fna.fbcdn.net/v/t51.2885-19/s320x320/71510449_561596781262882_7125028557092290560_n.jpg?_nc_ht=instagram.fbkk9-2.fna.fbcdn.net&_nc_ohc=1UyizBDIYHoAX_ZiGpv&oh=7a32822efebce2b722c1033543105616&oe=5ED3CAF3"></img>
+                    <img style={{ borderRadius: '50%', width: '150px', height: '150px' }} alt="timphoto" src="https://instagram.fbkk9-2.fna.fbcdn.net/v/t51.2885-19/s320x320/71510449_561596781262882_7125028557092290560_n.jpg?_nc_ht=instagram.fbkk9-2.fna.fbcdn.net&_nc_ohc=1UyizBDIYHoAX_ZiGpv&oh=7a32822efebce2b722c1033543105616&oe=5ED3CAF3"></img>
                 </div>
                 <div className="col-lg-10" style={{ marginTop: '40px'}} >
                     <h1>Jinna C.</h1>      
@@ -71,18 +71,18 @@ function Contact() {
         <div className="row">
     
             <div className="col-lg-4 text-center">
-                <a href="https://github.com/cjtim" target="_blank">
-                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} src="https://icons-for-free.com/iconfiles/png/512/github+hub+icon+icon-1320194641335079152.png"></img>
+                <a href="https://github.com/cjtim" rel="noopener noreferrer" target="_blank">
+                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} alt="github" src="https://icons-for-free.com/iconfiles/png/512/github+hub+icon+icon-1320194641335079152.png"></img>
             </a><p>Github</p>
             </div>
             
-            <div className="col-lg-4 text-center"><a href="https://www.facebook.com/jinnatim" target="_blank">
-                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png"></img>
+            <div className="col-lg-4 text-center"><a rel="noopener noreferrer" href="https://www.facebook.com/jinnatim" target="_blank">
+                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} alt="facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png"></img>
             </a><p>Facebook</p></div>
         
             <div className="col-lg-4 text-center">
                 <a href="mailto:jinna.c@ku.th">
-                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} src="https://cdn.icon-icons.com/icons2/1182/PNG/512/1490129331-rounded07_82197.png"></img>
+                <img style={{ width: '80px', height: 'auto', borderRadius: '50%' }} alt="Email" src="https://cdn.icon-icons.com/icons2/1182/PNG/512/1490129331-rounded07_82197.png"></img>
             </a><p>Email</p>
             </div>
         </div>
@@ -90,9 +90,11 @@ function Contact() {
     </div>
     )
 }
-export default function tim(){
-    return(
-        <div className="jumbotron container" style={{ }}>
+
+export default class TimProfile extends Component {
+    render() {
+        return (
+            <div className="jumbotron container" style={{ }}>
             < IntroName />
             <SeparatorFluid/>
             <Skill/>
@@ -101,7 +103,8 @@ export default function tim(){
             <SeparatorFluid/>
             <Contact/>
         </div>
-    )
+        )
+    }
 }
 
 

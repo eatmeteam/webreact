@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/App.css';
-import { BrowserRouter, Switch, Route, Link, NavLink} from "react-router-dom";
+import { BrowserRouter, Switch, Route, Link, NavLink, HashRouter} from "react-router-dom";
 import Navbar from './navbar';
 import tim from './tim/tim-profile';
 import tong from './tong/tong-profile';
