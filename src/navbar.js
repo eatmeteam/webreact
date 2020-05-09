@@ -44,8 +44,6 @@ export default class navbar extends Component {
                     <div class="dropdown-divider"></div>
                     <Link class="dropdown-item" to="/20520">2 MAY 2020</Link>
                     <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="/40520">4 MAY 2020</Link>
-                    <div class="dropdown-divider"></div>
                     <Link class="dropdown-item" to="/90520">9 MAY 2020</Link>
                     <div class="dropdown-divider"></div>
                     <Link class="dropdown-item" to="/160520">16 MAY 2020</Link>
