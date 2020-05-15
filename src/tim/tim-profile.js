@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 function IntroName () {
     return (
-            <div className="row" style={{ marginTop: '-40px'}}  >
+            <div className="row container" >
                 <div className="col-lg-2" >
                     <img style={{ borderRadius: '50%', width: '150px', height: '150px' }} alt="timphoto" src="https://instagram.fbkk9-2.fna.fbcdn.net/v/t51.2885-19/s320x320/71510449_561596781262882_7125028557092290560_n.jpg?_nc_ht=instagram.fbkk9-2.fna.fbcdn.net&_nc_ohc=1UyizBDIYHoAX_ZiGpv&oh=7a32822efebce2b722c1033543105616&oe=5ED3CAF3"></img>
                 </div>
@@ -15,7 +15,7 @@ function IntroName () {
 }
 function Skill() {
     return (
-            <div className="row text-left">
+            <div className="row container">
                 <div className="col-lg-6">
                     <h2>Backend</h2>
                     <ul>
@@ -65,7 +65,7 @@ function SeparatorFluid(){
 }
 function Contact() {
     return (
-    <div>
+    <div className="container">
         <h2 className="text-center">Contact</h2>
         <p className="text-center">Feel free to contact me.</p>
         <div className="row">
@@ -94,7 +94,7 @@ function Contact() {
 export default class TimProfile extends Component {
     render() {
         return (
-            <div className="jumbotron container" style={{ }}>
+            <div className="jumbotron container">
             < IntroName />
             <SeparatorFluid/>
             <Skill/>

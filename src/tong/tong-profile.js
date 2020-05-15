@@ -25,7 +25,7 @@ function AboutMe(){
                     
                     <div className="col-sm-4">
                         <div className="configPicProfile">
-                            <img src={tongpic} className="picProfile"></img>
+                            <img alt="tong profile pic" src={tongpic} className="picProfile"></img>
                         </div>
                     </div>
                 </div>
@@ -124,14 +124,14 @@ function Contact(){
                         <tr>
                             <td>
                                 <i className="fab fa-facebook contactIcon"></i>
-                                <span className="fontPage contactText"><a href="https://www.facebook.com/patisx.b" style={{ color: 'black' }} target="_blank">PATIPAN BOONSIMMA</a></span>
+                                <span className="fontPage contactText"><a href="https://www.facebook.com/patisx.b" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">PATIPAN BOONSIMMA</a></span>
                              </td>
                         </tr>
             
                     <tr>
                         <td>
                     <i className="fab fa-instagram contactIcon"></i>
-                    <span className="fontPage contactText"><a href="https://www.instagram.com/txngthesec" style={{ color: 'black' }} target="_blank">TXNGTHESEC</a></span>
+                    <span className="fontPage contactText"><a href="https://www.instagram.com/txngthesec" style={{ color: 'black' }} target="_blank" rel="noopener noreferrer">TXNGTHESEC</a></span>
                         </td>
                     </tr>
                     

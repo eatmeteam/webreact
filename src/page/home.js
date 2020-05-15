@@ -18,7 +18,7 @@ export default function home(){
         <div alt='To return everything in 1 element'>
             <div className="banner">
                 <div className="container text-center" >
-                    <h1 className="fontIndex" style = {{ paddingTop: '20%', fontWeight: '800' }}>ถ้าผักมันขม กินผมก็ได้ครับ</h1>      
+                    <h1 className="fontIndex" style = {{ paddingTop: '19%', fontWeight: '800' }}>ถ้าผักมันขม กินผมก็ได้ครับ</h1>      
                     <p style={{ color: 'rgb(66, 20, 14)', fontSize: 20, fontWeight: '800' }} className="fontIndex">ลูกหมูสามตัว</p>
                 </div>
             </div>

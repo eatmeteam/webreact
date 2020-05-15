@@ -40,15 +40,15 @@ export default class navbar extends Component {
                     Workshop
                     </Link>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <Link class="dropdown-item" to="/290420">29 APRIL 2020</Link>
+                    <Link to="/pd1" class="dropdown-item">29 APRIL 2020</Link>
                     <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="/20520">2 MAY 2020</Link>
+                    <Link to="/pd2" class="dropdown-item">2 MAY 2020</Link>
                     <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="/90520">9 MAY 2020</Link>
+                    <Link to="/pd3" class="dropdown-item">9 MAY 2020</Link>
                     <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="/160520">16 MAY 2020</Link>
+                    <Link to="/pd4" class="dropdown-item">16 MAY 2020</Link>
                     <div class="dropdown-divider"></div>
-                    <Link class="dropdown-item" to="/230520">23 MAY 2020</Link>
+                    <Link to="/230520" class="dropdown-item">23 MAY 2020</Link>
                     </div>
                 </li>
                 {/* <!-- End Workshop --> */}
